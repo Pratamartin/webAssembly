@@ -6,11 +6,11 @@
 </head>
 <body>
     <script type="module">
-        import init, { greet } from './pkg/ioc_work.js';
+        import init, { greet } from './pkg/ioc_work.js'; 
 
         async function run() {
             await init();
-            const result = greet('world');
+            const result = greet('Introdução a Organização de computadores');
             document.getElementById('output').textContent = result;
         }
 
